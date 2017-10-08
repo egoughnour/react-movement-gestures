@@ -10,3 +10,8 @@ native accelerometer-based gesture recognition for phones.
 - get the expo app for your phone.
 - scan the QR code.
 
+## The plan
+- Use data from phones to train an RNN (for instance) to classify physical movements.
+- Use GPU for training so there is output available before the heat death of the universe (or just a long time from now--I don't know how you calculate your [Hubble Constant](https://en.wikipedia.org/wiki/Hubble%27s_law#Determining_the_Hubble_constant)).
+- Update the app to include an online detection mode (and then your phone can _finally_ help decide what you're telling it _as it moves_).
+- Port the app out of Expo?
